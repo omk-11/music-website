@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Music website</title>
+  <link rel="stylesheet" href="updatedCSS.css" />
+</head>
+
+<body onload="const_change()">
+  <div class="side-nav" id="side-nav">
+    <div class="playlist-name">
+      <h2>Hindi Soothing</h2>
+    </div>
+    <div class="playlist">
+      <ul id="list">
+        <li>
+          <button onclick="s_play(0)" id="song1" class="s1">
+            Yeh Raaten Yeh mousam
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(1)" id="song2" class="s1">
+            Tu Hai Kahan
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(2)" id="song3" class="s1">
+            Chand shifarish
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(3)" id="song4" class="s1">Tum Tak</button>
+        </li>
+        <li>
+          <button onclick="s_play(4)" id="song5" class="s1">Tere Naina</button>
+        </li>
+        <li>
+          <button onclick="s_play(5)" id="song6" class="s1">
+            Radha Kaise Na Jale
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(6)" id="song7" class="s1">
+            Ghode Pe Sawar Hai
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(7)" id="song8" class="s1">
+            Tumse Milkke dil ka
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(8)" id="song9" class="s1">
+            Kabhi Kabhi Aditi
+          </button>
+        </li>
+        <li>`
+          <button onclick="s_play(9)" id="song1" class="s10">Ajab Si</button>
+        </li>
+        <li>
+          <button onclick="s_play(10)" id="song1" class="s11">Khairiyat</button>
+        </li>
+        <li>
+          <button onclick="s_play(11)" id="song1" class="s12">
+            Chand Baliyan
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(12)" id="song1" class="s13">
+            Tujh Mein Rab Dikhta Hai
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(13)" id="song1" class="s14">
+            Yeh sham Mastani
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(14)" id="song1" class="s15">
+            Jeena Jeena
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(15)" id="song1" class="s16">
+            Mere Naam Tu
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(16)" id="song1" class="s17">
+            Haule Haule
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(17)" id="song1" class="s18">
+            Afreen Afreen
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(18)" id="song1" class="s19">
+            Main Agar Kahoon
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(19)" id="song1" class="s20">
+            Tu Jane Na
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(20)" id="song1" class="s21">
+            Rang Jo Lagyo
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(21)" id="song1" class="s22">
+            In Ankon Ki Masti
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(22)" id="song1" class="s23">
+            Pehla Nasha
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(23)" id="song1" class="s24">
+            Lag Ja Gale
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(24)" id="song1" class="s25">
+            Bol Na Halke Halke
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(25)" id="song1" class="s26">
+            Manwa Lage
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(26)" id="song1" class="s27">
+            Main Rang Sharbaton Ka
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(27)" id="song1" class="s28">Laal Ishq</button>
+        </li>
+        <li>
+          <button onclick="s_play(28)" id="song1" class="s29">
+            Abhi Mujh Mein Kahin
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(29)" id="song1" class="s30">
+            Abhi Na Jao
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(30)" id="song1" class="s31">
+            Alag Aasmaan
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(31)" id="song1" class="s32">Galliyan</button>
+        </li>
+        <li>
+          <button onclick="s_play(32)" id="song1" class="s33">
+            chammak challo
+          </button>
+        </li>
+        <li>
+          <button onclick="s_play(33)" id="song1" class="s34">
+            character dhila
+          </button>
+        </li>
+      </ul>
+    </div>
+  <div class="play-area" id="main">
+    <button onclick="open_playlist()" class="btn" id="btn1">open</button>
+    <a href="#" id="prev" class="prevBtn"></a>
+    <a href="#" id="Play" class="playBtn"></a>
+    <a href="#" id="forward" class="forwardBtn"></a>
+
+    <input type="range" min="0" max="100" id="seek_bar" class="seek" value="0" />
+
+    <a href="#" id="theme" class="btn2" onclick="open_theme()">theme</a>
+
+    <div class="theme_tab" id="theme_tab">
+      <button class="theme_menu" id="theme1" onclick="change_theme(1)"></button>
+      <button class="theme_menu" id="theme2" onclick="change_theme(2)"></button>
+      <button class="theme_menu" id="theme3" onclick="change_theme(3)"></button>
+      <button class="theme_menu" id="theme4" onclick="change_theme(4)"></button>
+      <button class="theme_menu" id="theme5" onclick="change_theme(5)"></button>
+      <button class="theme_menu" id="theme6" onclick="change_theme(6)"></button>
+      <button class="theme_menu" id="theme7" onclick="change_theme(7)"></button>
+    </div>
+  </div>
+</body>
+<script src="updated.js"></script>
+
+</html>
