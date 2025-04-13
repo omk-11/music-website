@@ -91,7 +91,7 @@
   }
   
   .play-area {
-    background-image: url("bgm1.gif");
+    background-image: url("background/bgm1.gif");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -133,7 +133,7 @@
     transition: 0.5s;
     bottom: 20px;
     left: 50%;
-    background-image: url("play.png");
+    background-image: url("icons/play.png");
     background-size: cover;
   }
   
@@ -153,7 +153,7 @@
     transition: 0.5s;
     bottom: 24px;
     left: 57%;
-    background-image: url("play-button.png");
+    background-image: url("icons/play-button.png");
     background-size: cover;
   }
   
@@ -168,7 +168,7 @@
     transition: 0.5s;
     bottom: 24px;
     left: 43%;
-    background-image: url("play-button.png");
+    background-image: url("icons/play-button.png");
     background-size: cover;
     rotate: 180deg;
   }
@@ -225,44 +225,44 @@
   }
   
   #theme1 {
-    background-image: url("bgm1.gif");
+    background-image: url("background/bgm1.gif");
     background-position: center;
     background-size: cover;
   }
   
   #theme2 {
-    background-image: url("bgm7.gif");
+    background-image: url("background/bgm7.gif");
     background-position: center;
     background-size: cover;
   }
   
   #theme3 {
-    background-image: url("bgm8.gif");
+    background-image: url("background/bgm8.gif");
     background-position: center;
     background-size: cover;
   }
   
   #theme4 {
-    background-image: url("bgm9.gif");
+    background-image: url("background/bgm9.gif");
     background-position: center;
     background-size: cover;
   }
   
   #theme5 {
-    background-image: url("bgm5.gif");
+    background-image: url("background/bgm5.gif");
     background-position: center;
     background-size: cover;
   }
   
   #theme6 {
-    background-image: url("bgm6.gif");
+    background-image: url("background/bgm6.gif");
     background-position: center;
     background-size: cover;
   }
   
   
   #theme7 {
-    background-image: url("bgm10.gif");
+    background-image: url("background/bgm10.gif");
     background-position: center;
     background-size: cover;
   }
